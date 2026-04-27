@@ -83,14 +83,15 @@ Benjamini-Hochberg (BH)
 ---
 ## Repository Structure
 
-Shell-Files-Sequencing/
-├── scripts/
+Shell-Files-Sequencing
+├── scripts
 │   ├── Star_file.sh                     # STAR genome indexing
 │   ├── rsem-calculate-expression.sh     # RSEM quantification (Slurm array)
 │   └── bulk_rnaseq_analysis.R           # DESeq2 + annotation workflow
 │
 ├── README.md
 └── .gitignore
+
 ---
 ### Notes
 RSEM expected counts are rounded to integers before DESeq2 analysis.
