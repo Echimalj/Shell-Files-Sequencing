@@ -82,7 +82,7 @@ Benjamini-Hochberg (BH)
 
 ---
 ## Repository Structure
-
+```
 Shell-Files-Sequencing
 ├── scripts
 │   ├── Star_file.sh                     # STAR genome indexing
@@ -91,7 +91,7 @@ Shell-Files-Sequencing
 │
 ├── README.md
 └── .gitignore
-
+```
 ---
 ### Notes
 RSEM expected counts are rounded to integers before DESeq2 analysis.
