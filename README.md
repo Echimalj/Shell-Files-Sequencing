@@ -82,6 +82,7 @@ Benjamini-Hochberg (BH)
 
 ---
 ## Repository Structure
+
 Shell-Files-Sequencing/
 ├── scripts/
 │   ├── Star_file.sh                     # STAR genome indexing
